@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5e35b1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Ui.Fragment.PopularMovieFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gl_0.25"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:listitem="@layout/item_movie" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popular_movie"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rv_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_0.25"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.26" />
+
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/button_one_popular"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_list" />
+
+    <Button
+        android:id="@+id/bt_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:text="@string/button_two_popular"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/bt_1"
+        app:layout_constraintTop_toBottomOf="@+id/rv_list" />
+    <Button
+        android:id="@+id/bt_3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/button_three_popular"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/bt_2"
+        app:layout_constraintTop_toBottomOf="@+id/rv_list" />
+    <Button
+        android:id="@+id/bt_4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/button_four_popular"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/bt_3"
+        app:layout_constraintTop_toBottomOf="@+id/rv_list" />
+    <Button
+        android:id="@+id/bt_5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/button_five_popular"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/bt_4"
+        app:layout_constraintTop_toBottomOf="@+id/rv_list" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

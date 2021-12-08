@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChallengeMovie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="popular_movie">Popular Movie</string>
+    <!-- string referent to fragment popular-->
+    <string name="button_four_popular">4</string>
+    <string name="button_three_popular">3</string>
+    <string name="button_two_popular">2</string>
+    <string name="button_one_popular">1</string>
+    <string name="button_five_popular">5</string>
+</resources>
