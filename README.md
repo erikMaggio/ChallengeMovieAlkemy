@@ -1,6 +1,6 @@
-# ChallengeMovieAlkemy
+# Challenge Movie
 
-### Está appp , muestra una lista de peliculas populares, al ingresar a una pelicula , los redireccionara a la sopala de Detalles , que mostrara informacion extra de dicha pelicula
+### Está aplicacion ,consume una app , en la cual muestra una lista de peliculas populares, al ingresar a una pelicula , los redireccionara a la sopala de Detalles , que mostrara informacion extra de dicha pelicula
 
 # Home
 ![image](https://user-images.githubusercontent.com/87202940/163231439-67da62ee-b49d-4ea0-809a-208090a0ee7c.png)
@@ -13,4 +13,5 @@
 ### Inject Dependency
 ### Picasso 
 ### Material Desing
+### Retrofit
 ## Autor: Erik Maggio
