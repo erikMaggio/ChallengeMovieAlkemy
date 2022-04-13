@@ -8,10 +8,13 @@
 # Details
 ![image](https://user-images.githubusercontent.com/87202940/163231637-a51d1d5d-4d95-44fb-bc18-b23995868df6.png)
 
+### Arquitectura:
+## MVVM
+
 ## Librerias utlizadas:
-### Arquitectura MVVM
 ### Inject Dependency
 ### Picasso 
 ### Material Desing
 ### Retrofit
+
 ## Autor: Erik Maggio
